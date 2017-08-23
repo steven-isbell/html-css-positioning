@@ -1,3 +1,35 @@
-body {
-    background: blue;
+.box {
+    height: 200px;
+}
+
+#one {
+    background: salmon;
+    width: 200px;
+    position: static;
+}
+
+#two {
+    background: lawngreen;
+    width: 450px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+#three {
+    background: fuchsia;
+    width: 250px;
+    position: absolute;
+    top: 45vh;
+    left: 45vw;
+    right: 45vw;
+    bottom: 45vh;
+}
+
+#four {
+    background: papayawhip;
+    width: 300px;
+    position: fixed;
+    top: 10px;
+    right: 20vw;
 }
