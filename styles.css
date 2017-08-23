@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
 .box {
     height: 200px;
 }
@@ -32,4 +36,37 @@
     position: fixed;
     top: 10px;
     right: 20vw;
+}
+
+.display-demo {
+    width: 300px;
+    border: 5px solid red;
+}
+
+.display-block div {
+    display: block;
+}
+
+.display-inline div {
+    display: inline;
+}
+
+.display-inline-block div {
+    display: inline-block;
+}
+
+.display-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-it {
+    display: flex;
+}
+
+.display-none div {
+    display: none;
+    /* visibility: hidden */
 }
