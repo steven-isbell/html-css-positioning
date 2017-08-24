@@ -4,9 +4,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .box {
     height: 200px;
+    /* transition: 4s; */
 }
 
-/* #one {
+/* .box:hover {
+    height: 500px;
+} */
+
+/* .box:nth-child(2) {
+    border: 10px solid palevioletred;
+} */
+
+
+/* input:focus {
+    width: 500px;
+} */
+
+#one {
     background: salmon;
     width: 200px;
     position: static;
@@ -67,6 +81,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .display-none div {
-    display: none; */
-    /* visibility: hidden */
-/* }  */
+    /* display: none; */
+    visibility: hidden
+}
+
+@media (max-width: 768px) {
+    .box {
+        height: 130px;
+        border: 5px solid orangered;
+    }
+    #one {
+        background: blue;
+    }
+}
+
+@media (max-width: 545px) {
+    .box {
+        height: 25vh;
+        border: 10px solid maroon;
+    }
+}
